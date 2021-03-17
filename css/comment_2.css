@@ -1,0 +1,266 @@
+@charset "utf-8";
+/* CSS Document */
+/*下划线*/
+.xiahuaxian{
+	text-decoration:none;
+	}
+.clean{
+	clear:none;
+	}
+/*框*/		
+.kuang{
+	display:flex;
+	flex-direction:row;
+	margin-top:10px;
+	dispaly:flex;
+	height:150px;
+	width:700px;
+	}
+/*框——左*/		
+.zuo{
+	width:80px;
+	height:120px;
+	display:flex;
+	}
+/*框——右*/					
+.you{
+	margin-left:13px;
+	width:570px;
+	height:150px;
+	display:flex;
+	flex-direction:column;
+	}
+/*框——右-头部*/			
+.you_top{
+	display:flex;
+	flex-direction:row;
+	margin:0px 10px;
+	height:30px;
+	width:530px;
+	font-size: 16px;
+	}
+/*框——右-作者*/			
+.you_name{
+	height:12px;
+	width:150px;
+	margin:3px 0px;
+	padding:5px 5px;
+	font-size: 12px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow :ellipsis ;
+	}
+.you_name:hover{
+	background-color:#09F;
+	color:#FFF;
+	cursor:pointer;
+	}	
+/*框——右-内容*/		
+.you_nr{
+	height:50px;
+	width:570px;
+	margin:3px 0px;
+	font-size: 12px;
+	text-indent:2em;
+	padding:3px 1px;
+	}
+.zhankai{
+	height:12px;
+	width:auto;
+	color:#00C;
+	}
+.zhankai:hover{
+	background-color:#09F;
+	color:#FFF;
+	cursor:pointer;
+	}		
+/*框——右-赞*/		
+.you_zuan{
+	height:20px;
+	width:350px;
+	display:flex;
+	flex-direction:row;
+	}
+.you_top_tu{
+	width:30px;
+	height:30px;
+	}
+.you_yop_m{
+	width:auto;
+	height:20px;
+	margin-left:5px;
+	margin-top:6px;
+	}
+.you_yop_m:hover{
+	background-color:#09F;
+	color:#FFF;
+	cursor:pointer;
+	}	
+	
+.you_yop_f{
+	width:80px;
+	height:20px;
+	margin:2px 1px;
+	padding:5px 10px;
+	}
+.you_yop_sj{
+	width:auto;
+	height:20px;
+	font-size:14px;
+	color:#CCC;
+	padding:7px 2px;
+	}
+.you_zuan_tu{
+	display:flex;
+	flex-direction:row;
+	height:20px;
+	width:50px;
+	margin:0px 5px;
+	font-size:12px;
+	}
+.you_zuan_tu1{
+	height:15px;
+	width:30px;
+	padding-top:6px;
+	}
+.you_zuan_tu2{
+	height:12px;
+	width:20px;
+	padding:6px 1px;
+	}
+		
+/*----------书籍----------*/
+.item{	
+		display:flex;
+		flex-direction:column;
+		width:110px;
+		height:180px;	
+        margin-bottom: 10px;
+      }
+.item:hover{
+	box-shadow:0px 2px 2px rgba(204,204,204,0.4);
+	cursor:pointer;
+	}	  
+.item_tu{
+	width:110px;
+	height:140px;
+	}	  
+.item_zz{
+	width:110px;
+	height:30px;
+	padding-top:10px;
+	text-align:center;
+	font-size:15px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow :ellipsis ;
+	}
+/*---------分类----------*/
+.fl_kuang1{
+	width:110px;
+	margin:0px 10px;
+	height:590px;
+	}
+.fl_kuang2{	
+		display:flex;
+		flex-direction:column;
+		width:110px;
+		height:180px;	
+        margin:10px 0px;
+      }
+ .fl_kuang2:hover{
+	 box-shadow:0px 2px 2px rgba(204,204,204,0.4);
+	 cursor:pointer;
+	 }
+/*---------古籍----------*/
+.xk_z{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	width:340px;
+	height:190px;
+	}
+.xk_z_tu{
+	height:170px;
+	width:100px;
+	}		   
+.xk_z_wz{
+	height:190px;
+	width:210px;
+	}
+.xk_y_1{
+	width: 190px;
+	height: 50px;
+	padding: 5px 10px;
+	font-size: 26px;
+	font-weight: bold;
+	color: #000;
+	}
+.xk_y_1:hover{
+	color: #C30;
+	cursor:pointer;
+	}	
+.xk_y_2{
+	width:190px;
+	height:30px;
+	padding: 5px 10px;
+	color: #CCC;
+	}
+.xk_y_3{
+	width:190px;
+	height:30px;
+	padding: 5px 10px;
+	color: #CCC;
+	text-indent:2em;
+	}
+.xk_y_4{
+	width:190px;
+	height:30px;
+	padding: 5px 10px;
+	color: #000;
+	}
+.xk_y_4:hover{
+	color: #C30;
+	cursor:pointer;
+	}
+/*---------排名-------------*/
+.pm_name{
+	display:flex;
+	flex-direction:row;
+	width:360px;
+	height:32px;
+	margin-top:2px;
+	font-size:20px;
+	color:#CCC;
+	}
+.pm_name:hover{
+	background-color:#CFF;
+	cursor:pointer;
+	}	
+.pm_name_sx{
+	height:28px;
+	width:30px;
+	margin:2px 5px;
+	}
+.pm_name:hover .pm_name_sx{
+	color: #F00;
+	}		
+.pm_name_sm{
+	height:28px;
+	width:300px;
+	margin:2px 5px;
+	color:#333;
+	}
+.pm_gd{
+	width:340px;
+	height:30px;
+	padding:10px 10px;
+	margin-top:10ps;
+	font-size:20px;
+	color:#00F;
+	}
+.pm_name:hover .pm_gd{
+	background-color:#99F;
+	color:#FFF;
+	cursor:pointer;
+	}										  		

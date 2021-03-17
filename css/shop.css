@@ -1,0 +1,158 @@
+*{
+	border:0;
+	padding:0;
+	margin:0;
+}
+
+#bookstore{
+	width:960x;
+	height:auto;
+	background-color:#f7f1ed;
+	display:-webkit- flex;
+	display:flex;
+	-ms-flex-direction:  column;
+	-webkit-flex-direction:  column;
+	flex-direction: column;
+	-webkit-align-items:center;
+	align-items:center;
+	
+	}
+#head{
+	width:960px;
+	padding-top:80px;
+	height:auto;
+
+}
+
+
+#contion{
+	width:960px;
+	height:auto;
+
+	}
+#houdong{
+	width:960px;
+	height:auto;
+	columns-gap:3em;
+	-ms-columns:450px 2;
+	-webkit-columns:450px 2;
+	colunns:450px 2;
+	
+	}
+
+
+/**********************contion*************************/
+.desc{
+	width:450px;
+	height:300px;
+	margin-bottom:50px;
+	display:-webkit-flex;
+	display:flex;
+	-ms-flex-direction:  column;
+	-webkit-flex-direction:  column;
+	flex-direction: column;
+	cursor: pointer;
+	-webkit-columns:450px 2;
+	columns:450px 2;
+	
+}
+.desc:hover{
+	opacity:0.8;
+	}
+.img{
+	width:450px;
+	height:150px;
+	background-repeat:no-repeat;
+	}
+
+.title {
+	width:450px;
+	height:auto;
+	font-size:24px;
+	color:#FFF;
+	margin-top:50px;
+	text-align: center;
+	 -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+	
+}
+
+.subtitle{
+	width:450px;
+	height:auto;
+	font-size:20px;
+	color:#FFF;
+	text-align: center;
+	 -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+
+}
+.datails{
+	 width:450px;
+	 height:140px;
+	 background-color:#FFF;
+
+}
+.content{
+	height:40px;
+	font-size:18px;
+	margin-top:10px;
+	margin-left:20px;
+	color:#9b9b9b;
+	
+}
+.panel-foot{
+	margin-top:30px;
+	
+	}
+.icon-peple{
+
+	font-size:15px;
+	margin-left:20px;
+	 -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+	}
+.expied{
+	font-size:16px;
+	color:#494949;
+	background-color:#CCC;
+	margin-left:30px;
+	 -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+	}
+/**********************foot*************************/
+#foot32{
+	width:960px;
+	height:200px;
+	padding-top:50px;
+	border-top: dashed 1px #000000;
+	 -webkit-align-items:center;
+	align-items:center;
+
+	}
+#end{
+	width:960px;
+	height:200px;
+	display:-webkit-flex;
+	display:flex;
+	justify-content:space-between;
+
+	}
+.text-houer{
+	color:#999;
+	font-size:24px;
+	cursor: pointer;
+
+	}
+.text{
+	font-size:20px;
+
+}

@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* new okhqb_header by xiaoming */
+body{ font-family:"微软雅黑";}
+
+.okhqb_header .header .header_bottom .goods_category .cate_list{ display:block;}
+
+/* 轮播图片 */
+.okhqb_content{ width:1200px; margin:0 auto 30px auto;}
+.okhqb_content .banner_box{ width:995px; }
+.okhqb_content .focus_box{ width:960px; height:330px; margin:6px 8px 0 0; overflow:hidden; position:relative; z-index:20;}
+.okhqb_content .focus_box .focus_list{ height:330px; position:absolute; z-index:21; top:0; left:0; background:#fff;}
+.okhqb_content .focus_box .focus_list li{ float:left;}
+.okhqb_content .focus_box .focus_list li a{ display:block; width:960px; height:330px; overflow:hidden;}
+.okhqb_content .focus_box .focus_list li img{ width:960px; height:330px;}
+.okhqb_content .focus_box .focus_nav_box{ width:960px; position:absolute; height:24px; top:300px; left:18px; text-align:center; z-index:21; }
+.okhqb_content .focus_box .focus_nav_box .focus_nav{ display:inline-block;}
+.okhqb_content .focus_box .focus_nav_box .focus_nav{ *display:inline}
+.okhqb_content .focus_box .focus_nav_box .focus_nav a{ width:180px; height:22px;  *height:21px; overflow:hidden; opacity:0.5; filter:alpha(opacity=50); display:block; background:#000; margin-right:1px; outline:none; float:left; padding-top:3px; color:#FFF; word-break:break-all; overflow:hidden; line-height:1.6em}

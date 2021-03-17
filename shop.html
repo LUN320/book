@@ -1,0 +1,484 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="css/css.css" rel="stylesheet" type="text/css" />
+<link href="css/novel.css" rel="stylesheet" type="text/css" />
+</head>
+<script type="text/javascript">
+    var index=0;
+    //改变图片
+    function ChangeImg() {
+        index++;
+        var a=document.getElementsByClassName("img-slide");
+        if(index>=a.length) index=0;
+        for(var i=0;i<a.length;i++){
+            a[i].style.display='none';
+        }
+        a[index].style.display='block';
+    }
+    //设置定时器，每隔两秒切换一张图片
+    setInterval(ChangeImg,2000);
+</script>
+
+<body>
+	<header id="nav_flexbox">
+    	<article>
+    		<div id="nav_left">
+            	<img src="images/logo.jpg" width="120" height="35" alt="logo" />
+                <div class="nav_left_box">
+                	<div class="fenlei">
+                    	<p>分类</p>
+                        <div class="fenlei_nav">
+                    	<ul>
+                        	<li><a href="#">经典著作</a></li>
+                            <li><a href="#">文学小说</a></li>
+                            <li><a href="#">自然与科学</a></li>
+                            <li><a href="#">金融哲学</a></li>
+                            <li><a href="#">政治军事</a></li>
+                            <li><a href="#">社会学科</a></li>
+                            <li><a href="#">旅游摄影</a></li>
+                            <li><a href="#">计算机与互联网</a></li>
+                            <li><a href="#">社会学科</a></li>
+                            <li><a href="#">电子图书</a></li>
+                            <li><a href="#">期刊杂志</a></li>
+                            <li><a href="#">更多分类</a></li>
+                        </ul>
+                        </div>
+                    </div>
+                    <div>
+                		<div class="sousuo">
+                        	<p>搜索</p>
+                        	<div id="sousuo">
+                        		<div><input name="" type="text" id="sousuo_kuang"/></div>
+                            	<div><input name="sousuo" type="button" value="GO"id="sousuo_anniu"/></div>
+                       		</div>
+                        </div>
+                    </div>
+                <div>
+            </div>
+        </article>
+        <article>
+        	<nav>
+            	<ul id="nav_center">
+                <li><a href="index.html">随缘书馆</a><div class="border_bottom"></div></li>
+                <li><a href="novel.html">原创小说</a><div class="border_bottom"></div></li>
+                <li><a href="shop.html">图书商店</a><div class="border_bottom"></div></li>
+                <li><a href="activity.html">图书活动</a><div class="border_bottom"></div></li>
+                <li><a href="comment.html">随缘书评</a><div class="border_bottom"></div></li>
+              </ul>
+            </nav>
+        </article>
+        <article>
+        	<div id="nav_right">
+            	<a href="#">成为作者</a>
+                <img src="images/zhuce.jpg" width="33" height="33" />
+                <div class="nav_right_box">
+					<input name="sousuo" type="button" class="nav_anniu" value="登录"/>
+					<input name="sousuo" type="button" class="nav_anniu" value="注册"/>
+                </div>
+			</div>
+		</article>
+	</header>
+<div class="beijing">
+  <div class="zuo">
+	<div class="xiahuaxian1">阅读平台</div>
+    <div class="hezi">
+      <div class="zuotu1"><a href="#"><img src="images/d1.PNG" width="70" height="85" /></a></div>
+      <div class="zuotu2"><a href="#"><img src="images/d2.PNG" width="175" height="85" /></a></div>
+    </div>
+    <div class="xiahuaxian1">分类</a></div>
+    <h1 class="xiahuaxian2"><a href="#" class="quxian">文字</a></h1>
+    <h1 class="xiahuaxian2"><a href="#" class="quxian">人文社科</a></h1>
+    <h1 class="xiahuaxian2"><a href="#" class="quxian">经济管理</a></h1>
+    <h1 class="xiahuaxian2"><a href="#" class="quxian">科技科普</a></h1>
+    <h1 class="xiahuaxian2"><a href="#" class="quxian">计算机与互联网</a></h1>
+    <h1 class="xiahuaxian2"><a href="#" class="quxian">成功励志</a></h1>
+    <h1 class="xiahuaxian2"><a href="#" class="quxian">生活</a></h1>
+    <h1 class="xiahuaxian2"><a href="#" class="quxian">少儿</a></h1>
+    <h1 class="xiahuaxian2"><a href="#" class="quxian">艺术设计</a></h1>
+    <h1 class="xiahuaxian2"><a href="#" class="quxian">漫画绘本</a></h1>
+    <h1 class="xiahuaxian2"><a href="#" class="quxian">考试教育</a></h1>
+    <h1 class="xiahuaxian2"><a href="#" class="quxian">杂志</a></h1>
+    <div class="xiahuaxian1">畅销排行</div>
+    <div class="hezi1">
+      <div class="zhouyue"></div>
+      <div class="zhouyue"><a href="#" class="quxian">周</a></div>
+      <div class="zhouyue"></div>
+      <div class="zhouyue"><a href="#" class="quxian">月</a></div>
+    </div>
+    <div class="zuoxia"><a href="#" class="quxian">人间失格</a></div>
+    <div class="zuoxiazi">〔日〕太宰治</div>
+    <div class="zuoxia"><a href="#" class="quxian">人间失格（作家榜经典）</a></div>
+    <div class="zuoxiazi">〔日〕太宰治</div>
+    <div class="zuoxia"><a href="#" class="quxian">月亮与六便士（作家榜经典）</a></div>
+    <div class="zuoxiazi">〔英〕毛姆</div>
+    <div class="zuoxia"><a href="#" class="quxian">人为什么活着</a></div>
+    <div class="zuoxiazi">王小波</div>
+    <div class="zuoxia"><a href="#" class="quxian">切尔诺贝利的祭祷（又名《切尔诺贝利的悲鸣》）</a></div>
+    <div class="zuoxiazi">〔白俄罗斯〕S·A·阿列克谢耶维奇</div>
+    <div class="zuoxia"><a href="#" class="quxian">人性的弱点（卡耐基手稿还原）</a></div>
+    <div class="zuoxiazi">〔美〕戴尔·卡耐基</div>
+    <div class="zuoxia"><a href="#" class="quxian">中国通史</a></div>
+    <div class="zuoxiazi">吕思勉</div>
+    <div class="zuoxia"><a href="#" class="quxian">局外人</a></div>
+    <div class="zuoxiazi">〔法〕阿尔贝·加缪</div>
+    <div class="zuoxia"><a href="#" class="quxian">乌合之众：大众心理研究</a></div>
+    <div class="zuoxiazi">〔法〕古斯塔夫·勒庞</div>
+    <div class="zuoxia"><a href="#" class="quxian">人间失格</a></div>
+    <div class="zuoxiazi">〔美〕卡勒德·胡赛尼</div>
+    <div class="xiahuaxian1">读者动态</div>
+    <div class="hezi2">
+      <div><img src="images/zx1.jpg" /></div>
+      <div>
+        <p><a href="#" class="quxian">湘悟</a></p>
+        <p class="zuoxiazi">35 分钟前购买<a href="#" class="shuming">大主宰</a></p>
+      </div>
+    </div>
+    <div class="hezi2">
+      <div><img src="images/zx2.jpg" /></div>
+      <div>
+        <p><a href="#" class="quxian">萨菲刀锋</a></p>
+        <p class="zuoxiazi">1小时前购买<a href="#" class="shuming">中国通史</a></p>
+      </div>
+    </div>
+    <div class="hezi2">
+      <div><img src="images/zx3.jpg" /></div>
+      <div>
+        <p><a href="#" class="quxian">好可爱的</a></p>
+        <p class="zuoxiazi">3小时前购买<a href="#" class="shuming">兄弟</a></p>
+      </div>
+    </div>
+    <div class="hezi2">
+      <div><img src="images/zx4.jpg" /></div>
+      <div>
+        <p><a href="#" class="quxian">利空打击</a></p>
+        <p class="zuoxiazi">1天前购买<a href="#" class="shuming">切尔诺贝利的祭祷</a></p>
+      </div>
+    </div>
+    <div class="hezi2">
+      <div><img src="images/zx5.jpg" /></div>
+      <div>
+        <p><a href="#" class="quxian">放声大哭</a></p>
+        <p class="zuoxiazi">3天钟前购买<a href="#" class="shuming">82年生的金智英</a></p>
+      </div>
+    </div>
+    <div class="xiahuaxian1">版权合作</div>
+    <div class="zuoxiazi">影视版权、图书出版、内容入驻等机构方合作，请邮件联系我们<br />邮箱：zwx@qq.com</div>
+  </div>
+
+
+
+
+  <div id="you">
+  	<div class="imgBox">
+    <a href="#">
+    <img class="img-slide img1" src="images/t1.PNG" alt="1">
+    <img class="img-slide img2" src="images/t2.PNG" alt="2">
+    <img class="img-slide img3" src="images/t3.PNG" alt="3">
+    <img class="img-slide img2" src="images/t4.PNG" alt="4">
+    <img class="img-slide img2" src="images/t5.PNG" alt="5">
+    <img class="img-slide img2" src="images/t6.PNG" alt="6">
+    </a>
+    </div>
+    <div class="xiahuaxian1">编辑推荐</div>
+    <div class="hezi3">
+      <div class="youxiatu">
+        <div><a href="#" class="quxian"><img src="images/1.PNG" /></a></div>
+        <div class="zuoxia"><a href="#" class="quxian">隐身大师</a></div>
+        <div  class="youxiazi">〔法〕萨拉·卡明斯基廖晓玮译</div>
+        <div class="jiage">19.9元</div>
+      </div>
+      <div class="youxiatu">
+        <div><a href="#" class="quxian"><img src="images/2.PNG" /></a></div>
+        <div class="youxia"><a href="#" class="quxian">阿加莎·克里斯蒂非系列全集</a></div>
+        <div class="youxiazi">阿加莎·克里斯蒂 等</div>
+        <div class="jiage">219.9元</div>
+      </div>
+      <div class="youxiatu">
+        <div><a href="#" class="quxian"><img src="images/3.PNG" /></a></div>
+        <div class="zuoxia"><a href="#" class="quxian">重影</a></div>
+        <div  class="youxiazi">北岛</div>
+        <div class="jiage">19.9元</div>
+      </div>
+      <div class="youxiatu">
+        <div><a href="#" class="quxian"><img src="images/4.PNG" /></a></div>
+        <div class="zuoxia"><a href="#" class="quxian">爱尔兰人</a></div>
+        <div  class="youxiazi">〔美〕查尔斯·勃兰特（Charles Brandt）</div>
+        <div class="jiage">19.9元</div>
+      </div>
+      <div class="youxiatu">
+        <div><a href="#" class="quxian"><img src="images/5.PNG" /></a></div>
+        <div class="zuoxia"><a href="#" class="quxian">怒</a></div>
+        <div  class="youxiazi">〔日〕吉田修一岳远坤译</div>
+        <div class="jiage">19.9元</div>
+      </div>
+    </div>
+    <div class="xiahuaxian1">最新上架<a href="#" class="gengduo">更多新书</a></div>
+    <div class="hezi3">
+      <div class="youxiatu">
+        <div><a href="#" class="quxian"><img src="images/6.PNG" /></a></div>
+        <div class="zuoxia"><a href="#" class="quxian">大加速</a></div>
+        <div  class="youxiazi">英〕罗伯特·科尔维尔 张佩译</div>
+        <div class="jiage">18.99元</div>
+      </div>
+      <div class="youxiatu">
+        <div><a href="#" class="quxian"><img src="images/7.PNG" /></a></div>
+        <div class="youxia"><a href="#" class="quxian">精神疾病与心理学</a></div>
+        <div class="youxiazi">〔法〕米歇尔·福柯（Michel Foucault） 王杨译</div>
+        <div class="jiage">19.9元</div>
+      </div>
+      <div class="youxiatu">
+        <div><a href="#" class="quxian"><img src="images/8.PNG" /></a></div>
+        <div class="zuoxia"><a href="#" class="quxian">陌路人</a></div>
+        <div  class="youxiazi">〔法〕阿尔贝·加缪（Albert Camus） 沈志明译</div>
+        <div class="jiage">22.99元</div>
+      </div>
+      <div class="youxiatu">
+        <div><a href="#" class="quxian"><img src="images/9.PNG" /></a></div>
+        <div class="youxia"><a href="#" class="quxian">清明上河图密码大全集（套装全6册）</a></div>
+        <div  class="youxiazi">冶文彪</div>
+        <div class="jiage">79.99元</div>
+      </div>
+      <div class="youxiatu">
+        <div><a href="#" class="quxian"><img src="images/10.PNG" /></a></div>
+        <div class="zuoxia"><a href="#" class="quxian">鹅</a></div>
+        <div  class="youxiazi">张羞</div>
+        <div class="jiage">16.99元</div>
+      </div>
+    </div>
+    <div class="hezi3">
+      <div class="youxiatu">
+        <div><a href="#" class="quxian"><img src="images/11.PNG" /></a></div>
+        <div class="youxia"><a href="#" class="quxian">最糟也最棒的书店</a></div>
+        <div  class="youxiazi">〔日〕松浦弥太郎 小米呆译</div>
+        <div class="jiage">18.9元</div>
+      </div>
+      <div class="youxiatu">
+        <div><a href="#" class="quxian"><img src="images/12.PNG" /></a></div>
+        <div class="youxia"><a href="#" class="quxian">困惑的三文鱼</a></div>
+        <div class="youxiazi">〔英〕道格拉斯·亚当斯 姚向辉译</div>
+        <div class="jiage">20.9元</div>
+      </div>
+      <div class="youxiatu">
+        <div><a href="#" class="quxian"><img src="images/13.PNG" /></a></div>
+        <div class="youxia"><a href="#" class="quxian">灵魂漫长而黑暗的茶点时间</a></div>
+        <div  class="youxiazi">〔英〕道格拉斯·亚当斯 姚向辉译</div>
+        <div class="jiage">17.43元</div>
+      </div>
+      <div class="youxiatu">
+        <div><a href="#" class="quxian"><img src="images/14.PNG" /></a></div>
+        <div class="zuoxia"><a href="#" class="quxian">爱尔兰人</a></div>
+        <div  class="youxiazi">〔美〕查尔斯·勃兰特（Charles Brandt）</div>
+        <div class="jiage">19.9元</div>
+      </div>
+      <div class="youxiatu">
+        <div><a href="#" class="quxian"><img src="images/15.PNG" /></a></div>
+        <div class="youxia"><a href="#" class="quxian">开放的作品</a></div>
+        <div  class="youxiazi">〔意〕安伯托·艾柯 吴燕莛译</div>
+        <div class="jiage">13.9元</div>
+      </div>
+    </div>
+    <div class="xiahuaxian1">最受关注<a href="#" class="gengduo">更多新书</a></div>
+    <div class="hezi3">
+      <div class="youxiatu">
+        <div><a href="#" class="quxian"><img src="images/16.PNG" /></a></div>
+        <div class="zuoxia"><a href="#" class="quxian">82年生的金智英</a></div>
+        <div  class="youxiazi">〔韩〕赵南柱 尹嘉玄译</div>
+        <div class="jiage">16.9元</div>
+      </div>
+      <div class="youxiatu">
+        <div><a href="#" class="quxian"><img src="images/17.PNG" /></a></div>
+        <div class="youxia"><a href="#" class="quxian">追风筝的人</a></div>
+        <div class="youxiazi">〔美〕卡勒德·胡赛尼 李继宏译</div>
+        <div class="jiage">9.9元</div>
+      </div>
+      <div class="youxiatu">
+        <div><a href="#" class="quxian"><img src="images/18.PNG" /></a></div>
+        <div class="zuoxia"><a href="#" class="quxian">文案的基本修养</a></div>
+        <div  class="youxiazi">东东枪</div>
+        <div class="jiage">19.99元</div>
+      </div>
+      <div class="youxiatu">
+        <div><a href="#" class="quxian"><img src="images/19.PNG" /></a></div>
+        <div class="zuoxia"><a href="#" class="quxian">醉步男</a></div>
+        <div  class="youxiazi">〔日〕小林泰三 丁丁虫译</div>
+        <div class="jiage">11.9元</div>
+      </div>
+      <div class="youxiatu">
+        <div><a href="#" class="quxian"><img src="images/20.PNG" /></a></div>
+        <div class="youxia"><a href="#" class="quxian">人类简史：从动物到上帝</a></div>
+        <div  class="youxiazi">〔以〕尤瓦尔·赫拉利 林俊宏译</div>
+        <div class="jiage">19.9元</div>
+      </div>
+    </div>
+    <div class="xiahuaxian1">今日特价</div>
+    <div class="hezi3">
+      <div class="youxiatu">
+        <div><a href="#" class="quxian"><img src="images/21.PNG" /></a></div>
+        <div class="zuoxia"><a href="#" class="quxian">人类简史</a></div>
+        <div  class="youxiazi">尹嘉玄译</div>
+        <div class="jiage">15.9元</div>
+      </div>
+      <div class="youxiatu">
+        <div><a href="#" class="quxian"><img src="images/22.PNG" /></a></div>
+        <div class="youxia"><a href="#" class="quxian">大加速</a></div>
+        <div class="youxiazi">〔美〕卡勒德·胡赛尼 李继宏译</div>
+        <div class="jiage">23.9元</div>
+      </div>
+      <div class="youxiatu">
+        <div><a href="#" class="quxian"><img src="images/23.PNG" /></a></div>
+        <div class="zuoxia"><a href="#" class="quxian">文明人</a></div>
+        <div  class="youxiazi">安东德安</div>
+        <div class="jiage">19.0元</div>
+      </div>
+      <div class="youxiatu">
+        <div><a href="#" class="quxian"><img src="images/24.PNG" /></a></div>
+        <div class="zuoxia"><a href="#" class="quxian">啊加莎全集</a></div>
+        <div  class="youxiazi">〔日〕三日 丁丁虫译</div>
+        <div class="jiage">17.94元</div>
+      </div>
+      <div class="youxiatu">
+        <div><a href="#" class="quxian"><img src="images/25.PNG" /></a></div>
+        <div class="youxia"><a href="#" class="quxian">法医秦明</a></div>
+        <div  class="youxiazi">林俊宏</div>
+        <div class="jiage">19.5元</div>
+      </div>
+    </div>
+    <div class="xiahuaxian1">新书速递<a href="#" class="gengduo">共30部作品</a></div>
+    <div class="hezi3">
+      <div class="youxiatu">
+        <div><a href="#" class="quxian"><img src="images/26.PNG" /></a></div>
+        <div class="zuoxia"><a href="#" class="quxian">阿里巴巴</a></div>
+        <div  class="youxiazi">〔韩〕赵南柱 尹嘉玄译</div>
+        <div class="jiage">16.9元</div>
+      </div>
+      <div class="youxiatu">
+        <div><a href="#" class="quxian"><img src="images/27.PNG" /></a></div>
+        <div class="youxia"><a href="#" class="quxian">追捕祝融星</a></div>
+        <div class="youxiazi">〔美〕托马斯·利文森高爽译</div>
+        <div class="jiage">9.9元</div>
+      </div>
+      <div class="youxiatu">
+        <div><a href="#" class="quxian"><img src="images/28.PNG" /></a></div>
+        <div class="youxia"><a href="#" class="quxian">梵高手稿（典藏修订版）</a></div>
+        <div  class="youxiazi">〔荷〕文森特·梵高 著 等 57°N艺术小组译</div>
+        <div class="jiage">19.99元</div>
+      </div>
+      <div class="youxiatu">
+        <div><a href="#" class="quxian"><img src="images/29.PNG" /></a></div>
+        <div class="youxia"><a href="#" class="quxian">最糟也最棒的书店</a></div>
+        <div  class="youxiazi">〔日〕松浦弥太郎小米呆译</div>
+        <div class="jiage">11.9元</div>
+      </div>
+      <div class="youxiatu">
+        <div><a href="#" class="quxian"><img src="images/30.PNG" /></a></div>
+        <div class="youxia"><a href="#" class="quxian">灵魂漫长而黑暗的茶点时间</a></div>
+        <div  class="youxiazi">〔英〕道格拉斯·亚当斯姚向辉译</div>
+        <div class="jiage">19.9元</div>
+      </div>
+    </div>
+   <div class="xiahuaxian1">看世界方式<a href="#" class="gengduo">更多新书</a></div>
+    <div class="hezi3">
+      <div class="youxiatu">
+        <div><a href="#" class="quxian"><img src="images/40.PNG" /></a></div>
+        <div class="zuoxia"><a href="#" class="quxian">大加速</a></div>
+        <div  class="youxiazi">英〕罗伯特·科尔维尔 张佩译</div>
+        <div class="jiage">18.99元</div>
+      </div>
+      <div class="youxiatu">
+        <div><a href="#" class="quxian"><img src="images/41.PNG" /></a></div>
+        <div class="youxia"><a href="#" class="quxian">精神疾病与心理学</a></div>
+        <div class="youxiazi">〔法〕米歇尔·福柯（Michel Foucault） 王杨译</div>
+        <div class="jiage">19.9元</div>
+      </div>
+      <div class="youxiatu">
+        <div><a href="#" class="quxian"><img src="images/42.PNG" /></a></div>
+        <div class="zuoxia"><a href="#" class="quxian">陌路人</a></div>
+        <div  class="youxiazi">〔法〕阿尔贝·加缪（Albert Camus） 沈志明译</div>
+        <div class="jiage">22.99元</div>
+      </div>
+      <div class="youxiatu">
+        <div><a href="#" class="quxian"><img src="images/43.PNG" /></a></div>
+        <div class="youxia"><a href="#" class="quxian">清明上河图密码大全集（套装全6册）</a></div>
+        <div  class="youxiazi">冶文彪</div>
+        <div class="jiage">79.99元</div>
+      </div>
+      <div class="youxiatu">
+        <div><a href="#" class="quxian"><img src="images/44.PNG" /></a></div>
+        <div class="zuoxia"><a href="#" class="quxian">鹅</a></div>
+        <div  class="youxiazi">张羞</div>
+        <div class="jiage">16.99元</div>
+      </div>
+    </div>
+    <div class="hezi3">
+      <div class="youxiatu">
+        <div><a href="#" class="quxian"><img src="images/45.PNG" /></a></div>
+        <div class="youxia"><a href="#" class="quxian">最糟也最棒的书店</a></div>
+        <div  class="youxiazi">〔日〕松浦弥太郎 小米呆译</div>
+        <div class="jiage">18.9元</div>
+      </div>
+      <div class="youxiatu">
+        <div><a href="#" class="quxian"><img src="images/47.PNG" /></a></div>
+        <div class="youxia"><a href="#" class="quxian">困惑的三文鱼</a></div>
+        <div class="youxiazi">〔英〕道格拉斯·亚当斯 姚向辉译</div>
+        <div class="jiage">20.9元</div>
+      </div>
+      <div class="youxiatu">
+        <div><a href="#" class="quxian"><img src="images/48.PNG" /></a></div>
+        <div class="youxia"><a href="#" class="quxian">灵魂漫长而黑暗的茶点时间</a></div>
+        <div  class="youxiazi">〔英〕道格拉斯·亚当斯 姚向辉译</div>
+        <div class="jiage">17.43元</div>
+      </div>
+      <div class="youxiatu">
+        <div><a href="#" class="quxian"><img src="images/50.PNG" /></a></div>
+        <div class="zuoxia"><a href="#" class="quxian">爱尔兰人</a></div>
+        <div  class="youxiazi">〔美〕查尔斯·勃兰特（Charles Brandt）</div>
+        <div class="jiage">19.9元</div>
+      </div>
+      <div class="youxiatu">
+        <div><a href="#" class="quxian"><img src="images/49.PNG" /></a></div>
+        <div class="youxia"><a href="#" class="quxian">开放的作品</a></div>
+        <div  class="youxiazi">〔意〕安伯托·艾柯 吴燕莛译</div>
+        <div class="jiage">13.9元</div>
+      </div>
+    </div>
+    <div class="xiahuaxian1">中信品牌特惠<a href="#" class="gengduo">更多新书</a></div>
+    <div class="hezi3">
+      <div class="youxiatu">
+        <div><a href="#" class="quxian"><img src="images/50.PNG" /></a></div>
+        <div class="zuoxia"><a href="#" class="quxian">82年生的金智英</a></div>
+        <div  class="youxiazi">〔韩〕赵南柱 尹嘉玄译</div>
+        <div class="jiage">16.9元</div>
+      </div>
+      <div class="youxiatu">
+        <div><a href="#" class="quxian"><img src="images/51.PNG" /></a></div>
+        <div class="youxia"><a href="#" class="quxian">追风筝的人</a></div>
+        <div class="youxiazi">〔美〕卡勒德·胡赛尼 李继宏译</div>
+        <div class="jiage">9.9元</div>
+      </div>
+      <div class="youxiatu">
+        <div><a href="#" class="quxian"><img src="images/52.PNG" /></a></div>
+        <div class="zuoxia"><a href="#" class="quxian">文案的基本修养</a></div>
+        <div  class="youxiazi">东东枪</div>
+        <div class="jiage">19.99元</div>
+      </div>
+      <div class="youxiatu">
+        <div><a href="#" class="quxian"><img src="images/53.PNG" /></a></div>
+        <div class="zuoxia"><a href="#" class="quxian">醉步男</a></div>
+        <div  class="youxiazi">〔日〕小林泰三 丁丁虫译</div>
+        <div class="jiage">11.9元</div>
+      </div>
+      <div class="youxiatu">
+        <div><a href="#" class="quxian"><img src="images/55.PNG" /></a></div>
+        <div class="youxia"><a href="#" class="quxian">人类简史：从动物到上帝</a></div>
+        <div  class="youxiazi">〔以〕尤瓦尔·赫拉利 林俊宏译</div>
+        <div class="jiage">19.9元</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="banq">all rights reserved shilian</div>
+</body>
+</html>
